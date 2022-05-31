@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import cookie_stands
+from cookie_stands.models import cookie_stands
 
 
 class cookie_standsSerializer(serializers.ModelSerializer):
