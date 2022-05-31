@@ -22,3 +22,5 @@ Template Project for starting up CRUD API with Django Rest Framework
 - Rename `project/.env.sample` to `.env` and update as needed
 - Run makemigrations and migrate commands
 - Optional: Update `api_tester.py`
+
+## PR :[LINK](https://github.com/hind-hb/cookie-stand-api/pull/1/commits/41fe8a056aebddfd01d3e295874f2d641c61ba36)
