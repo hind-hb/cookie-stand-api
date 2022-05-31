@@ -1,26 +1,19 @@
-# api-quick-start
+# Feature Tasks and Requirements
+# Use API Quick Start Template
+Create a new repo cookie-stand-api that uses API Quick Start as a template.
 
-Template Project for starting up CRUD API with Django Rest Framework
+Modify your application using instructions in README.md found in root of repo.
 
-## Customization Steps
+Change things app folder to be cookie_stands
 
-- DO NOT migrate yet
-- add additional dependencies as needed
-  - Re-export requirements.txt as needed
-- change `things` folder to the app name of your choice
-- Search through entire code base for `Thing`,`Things` and `things` to modify code to use your resource
-  - `project/settings.py`
-  - `project/urls.py`
-  - App's files
-    - `views.py`
-    - `urls.py`
-    - `admin.py`
-    - `serializers.py`
-    - `permissions.py`
-- Update ThingModel with fields you need
-  - Make sure to update other modules that would be affected by Model customizations. E.g. serializers, tests, etc.
-- Rename `project/.env.sample` to `.env` and update as needed
-- Run makemigrations and migrate commands
-- Optional: Update `api_tester.py`
+Go through code base looking for Thing,thing and things change to cookie-stand related names.
+
+E.g. Thing model becomes CookieStand
+
+E.g. ThingList becomes CookieStandList
+
+Pro Tip: Do a global text search looking for thing
+
+Search should be case insensitive.
 
 ## PR :[LINK](https://github.com/hind-hb/cookie-stand-api/pull/1/commits/41fe8a056aebddfd01d3e295874f2d641c61ba36)
